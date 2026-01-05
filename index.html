@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esbelita - Control de Peso Natural</title>
+    <style>
+        :root {
+            --primary-orange: #f26522;
+            --text-dark: #333;
+            --bg-light: #fffaf5;
+            --accent-green: #4CAF50;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            background: linear-gradient(180deg, var(--bg-light) 0%, #ffffff 100%);
+            text-align: center;
+        }
+
+        .product-image {
+            max-width: 100%;
+            width: 350px; /* Ajustado para el frasco de la imagen */
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--primary-orange);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            max-width: 800px;
+        }
+
+        .price-tag {
+            font-size: 2rem;
+            color: var(--accent-green);
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        /* Botón de Compra */
+        .btn-buy {
+            background-color: var(--primary-orange);
+            color: white;
+            padding: 18px 40px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: transform 0.3s, background-color 0.3s;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(242, 101, 34, 0.4);
+            text-transform: uppercase;
+        }
+
+        .btn-buy:hover {
+            background-color: #d4541a;
+            transform: scale(1.05);
+        }
+
+        /* Vantagens (Beneficios) */
+        .features {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .feature-card {
+            background: #fff;
+            padding: 20px;
+            border-left: 4px solid var(--primary-orange);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .feature-card h3 {
+            margin-top: 0;
+            color: var(--primary-orange);
+        }
+
+        /* Seção de Depoimentos */
+        .testimonials {
+            background-color: var(--bg-light);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            margin-bottom: 40px;
+            color: var(--text-dark);
+        }
+
+        .testimonial-grid {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .quote-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            font-style: italic;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+        }
+
+        .author {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+            font-style: normal;
+            color: var(--primary-orange);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.9rem;
+            color: #999;
+            background: #f9f9f9;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            .product-image { width: 80%; }
+            .btn-buy { font-size: 1.1rem; padding: 15px 25px; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <img src="Esbelita_c.png" alt="Esbelita - Suplemento para Perder Peso" class="product-image">
+        
+        <h1>Recupera tu figura con Esbelita</h1>
+        <div class="price-tag">¡Solo $690 MXN!</div>
+        <p class="tagline">La solución natural en cápsulas para hombres y mujeres de 35+ años que buscan resultados reales.</p>
+        
+        <a href="https://tw2ud.doctormvp2.com/l" class="btn-buy">¡Pedir Esbelita Ahora!</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>💊 Formato Práctico</h3>
+            <p>Cada frasco contiene 20 cápsulas diseñadas para una absorción rápida y efectiva.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🌱 100% Natural</h3>
+            <p>Fórmula basada en agentes adelgazantes que actúan sin comprometer tu bienestar.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🎯 Resultados Enfocados</h3>
+            <p>Ideal para personas que desean controlar su peso de manera constante y saludable.</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Lo que dicen en México</h2>
+        <div class="testimonial-grid">
+            <div class="quote-card">
+                "Después de los 40 me costaba mucho bajar de peso. Con Esbelita me siento con más ligereza y menos pesadez diaria."
+                <span class="author">Elena R. - CDMX ⭐⭐⭐⭐⭐</span>
+            </div>
+            <div class="quote-card">
+                "Excelente producto. El envío fue rápido y el precio de $690 es muy justo para la calidad que recibes."
+                <span class="author">Juan P. - Guadalajara ⭐⭐⭐⭐⭐</span>
+            </div>
+            <div class="quote-card">
+                "Me encanta que sean cápsulas fáciles de tomar. He notado la diferencia en mi ropa en pocas semanas."
+                <span class="author">Mónica G. - Monterrey ⭐⭐⭐⭐⭐</span>
+            </div>
+        </div>
+        <br><br>
+        <a href="https://tw2ud.doctormvp2.com/l" class="btn-buy">Aprovechar Precio Especial</a>
+    </section>
+
+    <footer>
+        <p>© 2026 Esbelita México - Todos los derechos reservados.</p>
+        <p style="font-size: 0.7rem;">Este producto no es un medicamento. El consumo de este producto es responsabilidad de quien lo recomienda y de quien lo usa.</p>
+    </footer>
+
+</body>
+</html>
